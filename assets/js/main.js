@@ -231,7 +231,7 @@ $(function () {
     /*==========   counterUp  ==========*/
     $(".counter").counterUp({
         delay: 10,
-        time: 4000
+        time: 1000
     });
 
     /*==========   Projects Filtering and Sorting  ==========*/
