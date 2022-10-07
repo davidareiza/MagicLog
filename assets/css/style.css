@@ -1407,13 +1407,13 @@ h6 {
 }
 
 .page-title-layout4 {
-  padding: 248px 0 115px;
+  padding: 148px 0 115px;
 }
 
 .page-title-layout4 .pagetitle__heading {
   font-size: 47px;
   font-weight: 700;
-  line-height: 62px;
+  line-height: 47px;
   margin-bottom: 18px;
 }
 
@@ -7526,7 +7526,7 @@ textarea.form-control {
   border: 20px solid #ffffff;
   opacity: 0;
   transform: scale(0);
-  transition: all 1s ease 1.5s;
+  transition: all 1s ease 0.75s;
 }
 
 .about-2 .counter-item {
@@ -7554,8 +7554,8 @@ textarea.form-control {
   opacity: 0;
   border-radius: 5px;
   background: #13afef;
-  animation-delay: 0.4s;
-  animation: slideOutBackground 1.7s ease;
+  animation-delay: 0.25s;
+  animation: slideOutBackground 0.75s ease;
 }
 
 .animate-img.about__img .counter-item-wrapper {
@@ -7566,9 +7566,9 @@ textarea.form-control {
 .animate-img.about__img img {
   opacity: 1;
   width: 100%;
-  transition-delay: 1s;
-  transition: opacity 0.1s, transform 0.75s;
-  animation: fadeInImage 1.5s ease;
+  transition-delay: 0.25s;
+  transition: opacity 0.1s, transform 0.25s;
+  animation: fadeInImage 0.75s ease;
 }
 
 @keyframes slideOutBackground {
@@ -7654,6 +7654,7 @@ textarea.form-control {
   margin-bottom: 15px;
 }
 
+
 .banner-1 .skills-panel .heading__desc {
   font-size: 14px;
   line-height: 23px;
@@ -7703,7 +7704,7 @@ textarea.form-control {
   }
 
   .banner-3 .inner-padding {
-    padding: 110px 100px 130px 110px;
+    padding: 110px 100px 90px 110px;
   }
 }
 

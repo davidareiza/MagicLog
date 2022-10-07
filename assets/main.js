@@ -134,7 +134,7 @@ $(function () {
     /*==========   Progress bars  ==========*/
     if ($(".skills").length > 0) {
         $(window).on('scroll', function () {
-            var skillsOffset = $(".skills").offset().top - 330,
+            var skillsOffset = $(".skills").offset().top - 130,
                 skillsHight = $(this).outerHeight(),
                 winScrollTop = $(window).scrollTop();
             if (winScrollTop > skillsOffset - 1 && winScrollTop < skillsOffset + skillsHight - 1) {
@@ -231,7 +231,7 @@ $(function () {
     /*==========   counterUp  ==========*/
     $(".counter").counterUp({
         delay: 10,
-        time: 1500
+        time: 1000
     });
 
     /*==========   Projects Filtering and Sorting  ==========*/
