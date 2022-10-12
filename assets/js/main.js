@@ -161,7 +161,7 @@ $(function () {
             transitionStyle: $(this).data('transition'),
             animateOut: $(this).data('animate-out'),
             animateIn: $(this).data('animate-in'),
-            autoplayTimeout: 15000,
+            autoplayTimeout: 5000,
             responsive: {
                 0: {
                     items: 1,
@@ -227,6 +227,24 @@ $(function () {
             srcAction: 'iframe_src',
         }
     });
+
+  /*==========  Popup Ajax  ==========*/
+    $(document).ready(function() {
+
+        $('.simple-ajax-popup-align-top').magnificPopup({
+            type: 'ajax',
+            alignTop: true,
+            overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+        });
+    
+        $('.simple-ajax-popup').magnificPopup({
+            type: 'ajax'
+        });
+        
+    });
+
+    
+
 
     /*==========   counterUp  ==========*/
     $(".counter").counterUp({
