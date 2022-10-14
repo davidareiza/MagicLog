@@ -1144,6 +1144,15 @@ h6 {
   line-height: 1.1;
   margin-bottom: 23px;
 }
+h6 center {
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  text-transform:none;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 23px;
+  text-align: center;
+}
 
 p {
   font-size: 15px;
@@ -1198,6 +1207,13 @@ h6 {
   margin-bottom: 15px;
 }
 
+.heading__title_centered {
+  font-size: 33px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
 .heading__desc {
   font-size: 16px;
   line-height: 25px;
@@ -1235,12 +1251,30 @@ h6 {
 .heading-white .heading__desc {
   color: #ffffff;
 }
+.heading-white .heading__title2,
+.heading-white .heading__desc2 {
+  color: #333333;
+}
 
 .text__block-desc {
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 35px;
 }
+.text__block-desc2 {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 35px;
+  color: #333333;
+}
+.text__block-desc3 {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 35px;
+  color: #333333;
+  text-align: center;
+}
+
 
 .text__block-2 {
   position: relative;
@@ -2071,9 +2105,10 @@ textarea.form-control {
 .list-items li {
   position: relative;
   padding-left: 26px;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
   margin-bottom: 8px;
 }
 
@@ -4272,6 +4307,12 @@ textarea.form-control {
   width: 100%;
 }
 
+
+.owl-carousel .owl-item22 img {
+  width: 100%;
+  margin-bottom: -120px;
+}
+
 .carousel-dots .owl-dots {
   margin-top: 10px;
   text-align: center;
@@ -5027,6 +5068,7 @@ textarea.form-control {
   padding: 30px 5px 26px 25px;
   margin-bottom: 20px;
 }
+
 
 .fancybox-layout2 .fancybox-item .fancybox__title {
   font-size: 16px;
