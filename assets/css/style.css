@@ -1068,6 +1068,9 @@ hr {
 .bg-theme {
   background-color: #13afef !important;
 }
+.bg-themGR {
+  background-color: #333 !important;
+}
 
 .bg-img {
   position: relative;
@@ -1254,6 +1257,11 @@ h6 {
 .heading-white .heading__title2,
 .heading-white .heading__desc2 {
   color: #333333;
+}
+
+.heading-white .heading__title3,
+.heading-white .heading__desc3 {
+  color: #13AFEF;
 }
 
 .text__block-desc {
